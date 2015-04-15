@@ -1,0 +1,22 @@
+{
+  "name": "primes",
+  "version": "0.1.0",
+  "description": "calculates primes, stores in redis",
+  "main": "primes.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "chai": "^2.2.0",
+    "redis": "^0.12.1",
+    "prompt": "^0.2.14",
+    "connect": "^3.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Avi Gunda",
+  "license": "MIT"
+}
